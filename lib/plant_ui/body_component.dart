@@ -15,118 +15,127 @@ class BodyComponent extends StatelessWidget {
             children: [
               Expanded(
                   child: Padding(
-                padding: const EdgeInsets.symmetric(vertical: 50.0),
+                padding: const EdgeInsets.symmetric(vertical: 0.0),
                 child: Column(
                   children: [
                     Align(
                       alignment: Alignment.topLeft,
                       child: IconButton(
                           onPressed: () {
+                            print('back');
                             Navigator.pop(context);
                           },
                           icon: Icon(Icons.arrow_back)),
                     ),
-                    Spacer(),
-                    Container(
-                      child: Icon(Icons.brightness_7,color: Colors.pink,),
-                      height: 62,
-                      width: 62,
-                      decoration: BoxDecoration(
-                          color: Colors.grey,
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: [
-                            BoxShadow(
-                              offset: Offset(0, 15),
-                              blurRadius: 22,
-                              color: Colors.white54.withOpacity(0.50),
-                            ),
-                            BoxShadow(
-                              offset: Offset(-15, -15),
-                              blurRadius: 20,
-                              color: Colors.white54.withOpacity(0.22),
-                            )
-                          ]),
-                    ),
-                    Container(
-                      child: Icon(Icons.brightness_7,color: Colors.blueGrey,),
-                      height: 62,
-                      width: 62,
-                      decoration: BoxDecoration(
-                          color: Colors.grey,
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: [
-                            BoxShadow(
-                              offset: Offset(0, 15),
-                              blurRadius: 22,
-                              color: Colors.white54.withOpacity(0.50),
-                            ),
-                            BoxShadow(
-                              offset: Offset(-15, -15),
-                              blurRadius: 20,
-                              color: Colors.white54.withOpacity(0.22),
-                            )
-                          ]),
-                    ),
-                    Container(
-                      child: Icon(Icons.brightness_7,color: Colors.yellow,),
-                      height: 62,
-                      width: 62,
-                      decoration: BoxDecoration(
-                          color: Colors.grey,
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: [
-                            BoxShadow(
-                              offset: Offset(0, 15),
-                              blurRadius: 22,
-                              color: Colors.white54.withOpacity(0.50),
-                            ),
-                            BoxShadow(
-                              offset: Offset(-15, -15),
-                              blurRadius: 20,
-                              color: Colors.white54.withOpacity(0.22),
-                            )
-                          ]),
-                    ),
-                    Container(
-                      child: Icon(Icons.brightness_7,color: Colors.black,),
-                      height: 62,
-                      width: 62,
-                      decoration: BoxDecoration(
-                          color: Colors.grey,
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: [
-                            BoxShadow(
-                              offset: Offset(0, 15),
-                              blurRadius: 22,
-                              color: Colors.white54.withOpacity(0.50),
-                            ),
-                            BoxShadow(
-                              offset: Offset(-15, -15),
-                              blurRadius: 20,
-                              color: Colors.white54.withOpacity(0.22),
-                            )
-                          ]),
-                    ),
-                    Container(
-                      child: Icon(Icons.brightness_7,color: Colors.green,),
-                      height: 62,
-                      width: 62,
-                      decoration: BoxDecoration(
-                          color: Colors.grey,
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: [
-                            BoxShadow(
-                              offset: Offset(0, 15),
-                              blurRadius: 22,
-                              color: Colors.white54.withOpacity(0.50),
-                            ),
-                            BoxShadow(
-                              offset: Offset(-15, -15),
-                              blurRadius: 20,
-                              color: Colors.white54.withOpacity(0.22),
-                            )
-                          ]),
-                    )
+                   Container(
+                     margin: EdgeInsets.only(top: 100),
+                     height: 500,
+                     child: Column(
+                       mainAxisAlignment: MainAxisAlignment.spaceAround,
+                       children: [
+                         Container(
+                           child: Icon(Icons.brightness_7,color: Colors.pink,),
+                           height: 62,
+                           width: 62,
+                           decoration: BoxDecoration(
+                               color: Colors.grey,
+                               borderRadius: BorderRadius.circular(20),
+                               boxShadow: [
+                                 BoxShadow(
+                                   offset: Offset(0, 15),
+                                   blurRadius: 22,
+                                   color: Colors.white54.withOpacity(0.50),
+                                 ),
+                                 BoxShadow(
+                                   offset: Offset(-15, -15),
+                                   blurRadius: 20,
+                                   color: Colors.white54.withOpacity(0.22),
+                                 )
+                               ]),
+                         ),
+                         Container(
+                           child: Icon(Icons.brightness_7,color: Colors.blueGrey,),
+                           height: 62,
+                           width: 62,
+                           decoration: BoxDecoration(
+                               color: Colors.grey,
+                               borderRadius: BorderRadius.circular(20),
+                               boxShadow: [
+                                 BoxShadow(
+                                   offset: Offset(0, 15),
+                                   blurRadius: 22,
+                                   color: Colors.white54.withOpacity(0.50),
+                                 ),
+                                 BoxShadow(
+                                   offset: Offset(-15, -15),
+                                   blurRadius: 20,
+                                   color: Colors.white54.withOpacity(0.22),
+                                 )
+                               ]),
+                         ),
+                         Container(
+                           child: Icon(Icons.brightness_7,color: Colors.yellow,),
+                           height: 62,
+                           width: 62,
+                           decoration: BoxDecoration(
+                               color: Colors.grey,
+                               borderRadius: BorderRadius.circular(20),
+                               boxShadow: [
+                                 BoxShadow(
+                                   offset: Offset(0, 15),
+                                   blurRadius: 22,
+                                   color: Colors.white54.withOpacity(0.50),
+                                 ),
+                                 BoxShadow(
+                                   offset: Offset(-15, -15),
+                                   blurRadius: 20,
+                                   color: Colors.white54.withOpacity(0.22),
+                                 )
+                               ]),
+                         ),
+                         Container(
+                           child: Icon(Icons.brightness_7,color: Colors.black,),
+                           height: 62,
+                           width: 62,
+                           decoration: BoxDecoration(
+                               color: Colors.grey,
+                               borderRadius: BorderRadius.circular(20),
+                               boxShadow: [
+                                 BoxShadow(
+                                   offset: Offset(0, 15),
+                                   blurRadius: 22,
+                                   color: Colors.white54.withOpacity(0.50),
+                                 ),
+                                 BoxShadow(
+                                   offset: Offset(-15, -15),
+                                   blurRadius: 20,
+                                   color: Colors.white54.withOpacity(0.22),
+                                 )
+                               ]),
+                         ),
+                         Container(
+                           child: Icon(Icons.brightness_7,color: Colors.green,),
+                           height: 62,
+                           width: 62,
+                           decoration: BoxDecoration(
+                               color: Colors.grey,
+                               borderRadius: BorderRadius.circular(20),
+                               boxShadow: [
+                                 BoxShadow(
+                                   offset: Offset(0, 15),
+                                   blurRadius: 22,
+                                   color: Colors.white54.withOpacity(0.50),
+                                 ),
+                                 BoxShadow(
+                                   offset: Offset(-15, -15),
+                                   blurRadius: 20,
+                                   color: Colors.white54.withOpacity(0.22),
+                                 )
+                               ]),
+                         )
+                       ],
+                     ),
+                   )
                   ],
                 ),
               )),
