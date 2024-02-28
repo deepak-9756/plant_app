@@ -32,21 +32,20 @@ class BodyComponent extends StatelessWidget {
                       height: 62,
                       width: 62,
                       decoration: BoxDecoration(
-                        color: Colors.grey,
-                            borderRadius: BorderRadius.circular(20),
-                        boxShadow: [
-                          BoxShadow(
-                            offset: Offset(0, 15),
-                            blurRadius: 22,
-                            color: Colors.white54.withOpacity(0.50),
-                          ),
-                          BoxShadow(
-                            offset: Offset(-15, -15),
-                            blurRadius: 20,
-                            color: Colors.white54.withOpacity(0.22),
-                          )
-                        ]
-                      ),
+                          color: Colors.grey,
+                          borderRadius: BorderRadius.circular(20),
+                          boxShadow: [
+                            BoxShadow(
+                              offset: Offset(0, 15),
+                              blurRadius: 22,
+                              color: Colors.white54.withOpacity(0.50),
+                            ),
+                            BoxShadow(
+                              offset: Offset(-15, -15),
+                              blurRadius: 20,
+                              color: Colors.white54.withOpacity(0.22),
+                            )
+                          ]),
                     )
                   ],
                 ),
@@ -72,12 +71,9 @@ class BodyComponent extends StatelessWidget {
                             'https://images.pexels.com/photos/4374576/pexels-photo-4374576.jpeg?auto=compress&cs=tinysrgb&w=800'))),
               )
             ],
-
           ),
         )
-
       ],
-
     );
   }
 }
