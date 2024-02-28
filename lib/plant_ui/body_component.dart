@@ -7,8 +7,7 @@ class BodyComponent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
-    return Column(
+    Size size = MediaQuery.of(context).size;    return Column(
       children: [
         SizedBox(
           height: size.height * 0.8,
