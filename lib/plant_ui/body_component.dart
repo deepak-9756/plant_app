@@ -28,7 +28,7 @@ class BodyComponent extends StatelessWidget {
                     ),
                     Spacer(),
                     Container(
-                      child: Icon(Icons.brightness_7,color: Colors.yellow,),
+                      child: Icon(Icons.brightness_7,color: Colors.pink,),
                       height: 62,
                       width: 62,
                       decoration: BoxDecoration(
