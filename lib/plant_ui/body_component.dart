@@ -28,6 +28,67 @@ class BodyComponent extends StatelessWidget {
                     ),
                     Spacer(),
                     Container(
+                      child: Icon(Icons.brightness_7,color: Colors.yellow,),
+                      height: 62,
+                      width: 62,
+                      decoration: BoxDecoration(
+                          color: Colors.grey,
+                          borderRadius: BorderRadius.circular(20),
+                          boxShadow: [
+                            BoxShadow(
+                              offset: Offset(0, 15),
+                              blurRadius: 22,
+                              color: Colors.white54.withOpacity(0.50),
+                            ),
+                            BoxShadow(
+                              offset: Offset(-15, -15),
+                              blurRadius: 20,
+                              color: Colors.white54.withOpacity(0.22),
+                            )
+                          ]),
+                    ),
+                    Container(
+                      child: Icon(Icons.brightness_7,color: Colors.yellow,),
+                      height: 62,
+                      width: 62,
+                      decoration: BoxDecoration(
+                          color: Colors.grey,
+                          borderRadius: BorderRadius.circular(20),
+                          boxShadow: [
+                            BoxShadow(
+                              offset: Offset(0, 15),
+                              blurRadius: 22,
+                              color: Colors.white54.withOpacity(0.50),
+                            ),
+                            BoxShadow(
+                              offset: Offset(-15, -15),
+                              blurRadius: 20,
+                              color: Colors.white54.withOpacity(0.22),
+                            )
+                          ]),
+                    ),
+                    Container(
+                      child: Icon(Icons.brightness_7,color: Colors.yellow,),
+                      height: 62,
+                      width: 62,
+                      decoration: BoxDecoration(
+                          color: Colors.grey,
+                          borderRadius: BorderRadius.circular(20),
+                          boxShadow: [
+                            BoxShadow(
+                              offset: Offset(0, 15),
+                              blurRadius: 22,
+                              color: Colors.white54.withOpacity(0.50),
+                            ),
+                            BoxShadow(
+                              offset: Offset(-15, -15),
+                              blurRadius: 20,
+                              color: Colors.white54.withOpacity(0.22),
+                            )
+                          ]),
+                    ),
+                    Container(
+                      child: Icon(Icons.brightness_7,color: Colors.yellow,),
                       height: 62,
                       width: 62,
                       decoration: BoxDecoration(
@@ -50,7 +111,6 @@ class BodyComponent extends StatelessWidget {
                 ),
               )),
               Container(
-
                 height: size.height * 0.8,
                 width: size.width * .75,
                 decoration: BoxDecoration(
