@@ -50,6 +50,7 @@ class BodyComponent extends StatelessWidget {
                 ),
               )),
               Container(
+
                 height: size.height * 0.8,
                 width: size.width * .75,
                 decoration: BoxDecoration(
