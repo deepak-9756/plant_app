@@ -47,7 +47,7 @@ class DetailsScreen extends StatelessWidget {
           Row(
             children: [
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20),
+                padding: EdgeInsets.symmetric(horizontal: 40),
                 width: 400,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
